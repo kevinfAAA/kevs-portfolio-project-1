@@ -31,7 +31,8 @@ h1, h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 160%;
     letter-spacing: 4px;
 }
 
@@ -57,17 +58,17 @@ h1, h2 {
     border-bottom: 1px solid lightcoral;
 }
 
-/* international-screening image */
+/* international-screening image and cover text*/
 
 
 #international-screening {
     
-    background-image: url('../images/international-screening.jpg');
+    background: url('../images/international-screening.jpg') no-repeat center fixed;
     background-size: cover;
-    height: 100%;
-    overflow: hidden;
-    
-    
-     
+}
+
+#cover-text {
+    height: 600px;
+    width: 25%;
 }
   
