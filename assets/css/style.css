@@ -19,3 +19,55 @@ h1, h2 {
     letter-spacing: 4px;
     color:lightcoral
 }
+
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid lightcoral;
+}
+.active {
+    border-bottom: 1px solid lightcoral;
+}
+
+/* international-screening image */
+
+
+#international-screening {
+    
+    background-image: url('../images/international-screening.jpg');
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    
+    
+     
+}
+  
